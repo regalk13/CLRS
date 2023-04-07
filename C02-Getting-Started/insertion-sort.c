@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void insertion_sort(int A[], int n) {
   for (int j = 1; j < n; j++) {
       int key = A[j];
@@ -34,7 +36,6 @@ int main(void) {
         printf("Value in index[%d]: %d\n", i, A[i]);
     }
 
-    printf("");
         
     decre_insertion_sort(A, 6);
 
